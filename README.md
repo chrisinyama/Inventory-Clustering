@@ -1,5 +1,4 @@
-
-![SKU](https://github.githubassets.com/images/modules/logos_page/Octocat.png](https://github.com/chrisinyama/Inventory-Clustering/blob/main/SKU.png)
+![SKU](https://github.com/chrisinyama/Inventory-Clustering/blob/main/SKU.png)
 
 
 ## Clustering Analysis for Outbound Inventory Data
