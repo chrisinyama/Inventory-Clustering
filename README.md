@@ -1,6 +1,5 @@
 ![SKU](https://github.com/chrisinyama/Inventory-Clustering/blob/main/SKU.png)
 
-
 ## Clustering Analysis for Outbound Inventory Data
 
 **Project Overview**
@@ -9,28 +8,9 @@ This project performs clustering analysis on outbound inventory data. It aims to
 
 The project is designed for data analysts, supply chain managers, and professionals who work with outbound inventory data. It provides a systematic approach to analyze and understand the relationships between different variables and identify distinct clusters or segments within the dataset. The insights obtained from the clustering analysis can be used to optimize inventory management strategies, improve supply chain efficiency, and make data-driven decisions related to outbound operations.
 
-
-
-
-
-## Usage/Examples
-
-```python
-import pandas as pd
-
-in_vehicle_coupon = pd.read_csv("in-vehicle-coupon-recommendation.csv")
-
-in_vehicle_coupon
-```
-
-
-
-
 ## Author
 
 - [@chrisinyama](https://github.com/chrisinyama/In-Vehicle-Coupon-Recommendation-Analysis)
-
-
 
 
 ## Tools
@@ -73,6 +53,18 @@ sklearn.metrics.silhouette_score
 
 5. Summary Statistics: The project computes and displays summary statistics of the dataset, including measures such as mean, standard deviation, minimum, maximum, and quartiles for the numerical columns
 
+
+
+## Usage/Examples
+
+```python
+import pandas as pd
+
+Stock_keeping_Data = pd.read_csv("Sku_Data.csv")
+
+Stock_keeping_Data
+
+```
 
 
 ## Data Preprocessing
@@ -138,5 +130,7 @@ Run the Jupyter Notebook and execute the code cells to perform the analysis.
 ## Acknowledgements
 
  The stock-keeping data used in this project is sourced from [https://archive.ics.uci.edu/dataset/531/stock+keeping+units].
+
+
 
 
